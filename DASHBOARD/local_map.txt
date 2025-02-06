@@ -1,0 +1,1711 @@
+[
+    {
+        "id": "7ce673ecb8c5390f",
+        "type": "tab",
+        "label": "Map",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ccefd94bebcd7b92",
+        "type": "tab",
+        "label": "User",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "889e32f4f45172b0",
+        "type": "tab",
+        "label": "Login",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "52af4c6e7319e091",
+        "type": "tab",
+        "label": "Register",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1ffa65904bc25e3a",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "125c85faea7572bf",
+        "type": "group",
+        "z": "1ffa65904bc25e3a",
+        "name": "UIControl Tabs",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "a1b1130514c3f5d5",
+            "e229b5656c7043a1",
+            "5563828bf990bac6",
+            "711aff1a4fc0d793",
+            "dc4384a82b31186b",
+            "fa46479feb50acf4",
+            "2233f5cdd6b57ab1",
+            "2a13de37dd6d06b4",
+            "5fe56b501dcf3e4f",
+            "fdb39fe7f3ec1eb6",
+            "52551884de6d0830"
+        ],
+        "x": 234,
+        "y": 199,
+        "w": 862,
+        "h": 302
+    },
+    {
+        "id": "ce5c8cbcf02b54a0",
+        "type": "group",
+        "z": "889e32f4f45172b0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3f62fac11b0e94b2",
+            "550d95cff6097140",
+            "08b4928a97d1e064",
+            "6a7a183587d2bb02",
+            "9a3f81b9ef1c1df1"
+        ],
+        "x": 314,
+        "y": 599,
+        "w": 192,
+        "h": 262
+    },
+    {
+        "id": "26fa48185eebca55",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "bb47b17c3eb9cc2b",
+        "type": "ui_group",
+        "z": "7ce673ecb8c5390f",
+        "name": "Livestock Location",
+        "tab": "6474f53f30d68159",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6474f53f30d68159",
+        "type": "ui_tab",
+        "z": "7ce673ecb8c5390f",
+        "name": "Map",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6c88040db9a62521",
+        "type": "ui_group",
+        "name": "Current Location",
+        "tab": "6474f53f30d68159",
+        "order": 3,
+        "disp": true,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5639b047ab2ac509",
+        "type": "ui_tab",
+        "name": "Login",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "87ee96f71b7c3e64",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "5639b047ab2ac509",
+        "order": 1,
+        "disp": false,
+        "width": "10",
+        "collapse": false,
+        "className": "target-group"
+    },
+    {
+        "id": "82a35bd06965972f",
+        "type": "ui_tab",
+        "name": "Register",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a78694ea8c511dc3",
+        "type": "ui_group",
+        "name": "reg",
+        "tab": "82a35bd06965972f",
+        "order": 1,
+        "disp": false,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dfbd0876e7d6cd3b",
+        "type": "ui_spacer",
+        "z": "52af4c6e7319e091",
+        "name": "spacer",
+        "group": "a78694ea8c511dc3",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e108206f8303c72d",
+        "type": "ui_spacer",
+        "z": "52af4c6e7319e091",
+        "name": "spacer",
+        "group": "a78694ea8c511dc3",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d8b759cef72a2b9f",
+        "type": "ui_spacer",
+        "z": "52af4c6e7319e091",
+        "name": "spacer",
+        "group": "a78694ea8c511dc3",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "72348cc56222c59b",
+        "type": "ui_spacer",
+        "z": "52af4c6e7319e091",
+        "name": "spacer",
+        "group": "a78694ea8c511dc3",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "34107c4a1c4b5c5d",
+        "type": "ui_spacer",
+        "z": "52af4c6e7319e091",
+        "name": "spacer",
+        "group": "a78694ea8c511dc3",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "64fd45aa82f16a77",
+        "type": "ui_spacer",
+        "z": "52af4c6e7319e091",
+        "name": "spacer",
+        "group": "a78694ea8c511dc3",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4a9f3499ad5c3f72",
+        "type": "ui_spacer",
+        "z": "52af4c6e7319e091",
+        "name": "spacer",
+        "group": "a78694ea8c511dc3",
+        "order": 11,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "aef10c5efbcbcd4d",
+        "type": "ui_spacer",
+        "z": "52af4c6e7319e091",
+        "name": "spacer",
+        "group": "a78694ea8c511dc3",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c4fa3b6d6efaee12",
+        "type": "ui_spacer",
+        "z": "52af4c6e7319e091",
+        "name": "spacer",
+        "group": "a78694ea8c511dc3",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8468ddcef8ab5980",
+        "type": "ui_spacer",
+        "z": "52af4c6e7319e091",
+        "name": "spacer",
+        "group": "a78694ea8c511dc3",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "62847f17b1c3a95a",
+        "type": "ui_spacer",
+        "z": "52af4c6e7319e091",
+        "name": "spacer",
+        "group": "a78694ea8c511dc3",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ea30d730c546de54",
+        "type": "ui_spacer",
+        "z": "52af4c6e7319e091",
+        "name": "spacer",
+        "group": "a78694ea8c511dc3",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "deb8137e4c26c2b7",
+        "type": "ui_spacer",
+        "z": "52af4c6e7319e091",
+        "name": "spacer",
+        "group": "a78694ea8c511dc3",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7f97d5b66cae5a22",
+        "type": "ui_spacer",
+        "z": "889e32f4f45172b0",
+        "name": "spacer",
+        "group": "87ee96f71b7c3e64",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b35fb8639576eba0",
+        "type": "ui_spacer",
+        "z": "889e32f4f45172b0",
+        "name": "spacer",
+        "group": "87ee96f71b7c3e64",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "32fbd36b1dc42414",
+        "type": "ui_spacer",
+        "z": "889e32f4f45172b0",
+        "name": "spacer",
+        "group": "87ee96f71b7c3e64",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "86d634586bcc8122",
+        "type": "ui_spacer",
+        "z": "889e32f4f45172b0",
+        "name": "spacer",
+        "group": "87ee96f71b7c3e64",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d2dd1a5f164a9bcf",
+        "type": "ui_spacer",
+        "z": "889e32f4f45172b0",
+        "name": "spacer",
+        "group": "87ee96f71b7c3e64",
+        "order": 8,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "7edddac1803c316c",
+        "type": "ui_spacer",
+        "z": "889e32f4f45172b0",
+        "name": "spacer",
+        "group": "87ee96f71b7c3e64",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4febf544c417d267",
+        "type": "ui_spacer",
+        "z": "889e32f4f45172b0",
+        "name": "spacer",
+        "group": "87ee96f71b7c3e64",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a0172086c83ed914",
+        "type": "ui_spacer",
+        "z": "889e32f4f45172b0",
+        "name": "spacer",
+        "group": "87ee96f71b7c3e64",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ebdbaa722b753f4e",
+        "type": "ui_spacer",
+        "z": "889e32f4f45172b0",
+        "name": "spacer",
+        "group": "87ee96f71b7c3e64",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f43f580a5c6770d6",
+        "type": "ui_spacer",
+        "z": "889e32f4f45172b0",
+        "name": "spacer",
+        "group": "87ee96f71b7c3e64",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4442a8bcd84d7c56",
+        "type": "ui_spacer",
+        "z": "889e32f4f45172b0",
+        "name": "spacer",
+        "group": "87ee96f71b7c3e64",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3fad712465364921",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "abb33d5ffca9c5a6",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "5d0f0a4ec0c8366b",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "d651eeccc2332f7c",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "abb33d5ffca9c5a6",
+        "type": "ui_tab",
+        "name": "Tab 1",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "d651eeccc2332f7c",
+        "type": "ui_tab",
+        "name": "Tab 2",
+        "icon": "dashboard",
+        "order": 7,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "acd28d4a33586a91",
+        "type": "ui_tab",
+        "name": "User",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d180db611972ecdb",
+        "type": "ui_group",
+        "name": "User",
+        "tab": "acd28d4a33586a91",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b1698f6ea031f1e2",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3ee95f233bd13c9e",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "b1698f6ea031f1e2",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "4c3385920c0ecfae",
+        "type": "ui_group",
+        "name": "map",
+        "tab": "6474f53f30d68159",
+        "order": 2,
+        "disp": true,
+        "width": "25",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a069d3573584772c",
+        "type": "function",
+        "z": "7ce673ecb8c5390f",
+        "name": "Process GPS Data",
+        "func": "var lat = msg.payload.lat;\nvar lon = msg.payload.lon;\nvar name = msg.topic.split('/').pop();\nmsg.payload = {\n    name: name,\n    lat: lat,\n    lon: lon,\n    icon: \"fa-map-marker\",\n    layer: \"combined\"\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 580,
+        "y": 100,
+        "wires": [
+            [
+                "487582ed8ef15ae7"
+            ]
+        ]
+    },
+    {
+        "id": "70ef76c9d3c4181a",
+        "type": "function",
+        "z": "7ce673ecb8c5390f",
+        "name": "function 1",
+        "func": "// Latitude and Longitude bounds\nconst latMin = -25.546763121826135;\nconst latMax = -25.542273189589867;\n\nconst lonMin = 28.09370960005829;\nconst lonMax = 28.100545480831144;\n\n// Function to generate random latitude and longitude within the bounds\nfunction getRandomCoord(min, max) {\n    return Math.random() * (max - min) + min;\n}\n\n// Generate random coordinates\nconst lat = getRandomCoord(latMin, latMax);\nconst lon = getRandomCoord(lonMin, lonMax);\n\n// Prepare the payload for each topic\nconst topics = [\"gps/num1\", \"gps/num2\", \"gps/num3\", \"gps/num4\", \"gps/num5\"];\nconst msgs = topics.map(topic => ({\n    topic: topic,\n    payload: {\n        lat: getRandomCoord(latMin, latMax),\n        lon: getRandomCoord(lonMin, lonMax)\n    }\n}));\n\nreturn [msgs];\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 100,
+        "wires": [
+            [
+                "a069d3573584772c"
+            ]
+        ]
+    },
+    {
+        "id": "10b3a9e709f3e39f",
+        "type": "inject",
+        "z": "7ce673ecb8c5390f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 100,
+        "wires": [
+            [
+                "70ef76c9d3c4181a"
+            ]
+        ]
+    },
+    {
+        "id": "d96178a842312cc3",
+        "type": "ui_button",
+        "z": "7ce673ecb8c5390f",
+        "name": "",
+        "group": "bb47b17c3eb9cc2b",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Get Location",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 160,
+        "wires": [
+            [
+                "70ef76c9d3c4181a"
+            ]
+        ]
+    },
+    {
+        "id": "855e48b8c96e8d10",
+        "type": "ui_template",
+        "z": "7ce673ecb8c5390f",
+        "group": "4c3385920c0ecfae",
+        "name": "",
+        "order": 1,
+        "width": 25,
+        "height": 14,
+        "format": "<div ng-bind-html=\"msg.payload | trusted\"></div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 560,
+        "y": 260,
+        "wires": [
+            [
+                "72b20dba1b884cfd"
+            ]
+        ]
+    },
+    {
+        "id": "7b3a785298585fd1",
+        "type": "template",
+        "z": "7ce673ecb8c5390f",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<iframe src=\"../worldmap\" width=\"100%\" height=\"700px\" ></iframe>",
+        "x": 390,
+        "y": 260,
+        "wires": [
+            [
+                "855e48b8c96e8d10"
+            ]
+        ]
+    },
+    {
+        "id": "72b20dba1b884cfd",
+        "type": "debug",
+        "z": "7ce673ecb8c5390f",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "b87c882e5bf93ce7",
+        "type": "ui_template",
+        "z": "7ce673ecb8c5390f",
+        "group": "6c88040db9a62521",
+        "name": "Get Location",
+        "order": 1,
+        "width": 5,
+        "height": 6,
+        "format": "\n<div>\n    <button id=\"getLocationButton\"  style=\"\nborder:2px solid black;\nborder-radius:5px;\nbackground:#1079c9;\ncolor:white;\nfont-size: 1.2em;\nfont-weight: 500;\npadding:10px;\nwidth:200px;\n\n\n\">Get Location</button>\n<div class=\"data\">\n    <p id=\"locationStatus\" style=\"\nfont-size: 1.1em;\nfont-weight: 500;\ntext-decoration:underline;\n\n\"></p>\n    <p id=\"latitude\"></p>\n    <p id=\"longitude\"></p>\n</div>\n\n</div>\n<style>\n    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');\n    *{\n    margin: 0;\n    padding: 0;\n    font-family: 'Poppins', sans-serif;\n    }\n\n</style>\n\n\n\n\n<script>\n    (function(scope) {\n        document.getElementById('getLocationButton').onclick = function() {\n            document.getElementById('locationStatus').innerText = \"Getting location...\";\n            if (navigator.geolocation) {\n                navigator.geolocation.getCurrentPosition(function(position) {\n                    scope.send({payload: {lat: position.coords.latitude, lon: position.coords.longitude}});\n                    document.getElementById('locationStatus').innerText = \"Location retrieved\";\n                    document.getElementById('latitude').innerText = \"Latitude: \" + position.coords.latitude;\n                    document.getElementById('longitude').innerText = \"Longitude: \" + position.coords.longitude;\n                }, function(error) {\n                    document.getElementById('locationStatus').innerText = \"Error getting location: \" + error.message;\n                });\n            } else {\n                document.getElementById('locationStatus').innerText = \"Geolocation is not supported by this browser.\";\n            }\n        };\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 380,
+        "y": 180,
+        "wires": [
+            [
+                "5f7f78934bec63ed"
+            ]
+        ]
+    },
+    {
+        "id": "5f7f78934bec63ed",
+        "type": "function",
+        "z": "7ce673ecb8c5390f",
+        "name": "Process current Location",
+        "func": "msg.payload.location = `Latitude: ${msg.payload.lat}, Longitude: ${msg.payload.lon}`;\nflow.set(\"currentLocation\", { lat: msg.payload.lat, lon: msg.payload.lon });\nmsg.payload = {\n    name: \"Current Location\",  // Optional: a name for the pin\n    lat: msg.payload.lat,      // Latitude from your payload\n    lon: msg.payload.lon,      // Longitude from your payload\n    layer: \"location\",         // Optional: layer name for grouping\n    icon: \"fa-bullseye\", // Font Awesome icon (e.g., fa-location-arrow)\n    iconColor: \"#1132c2\"       // Color of the icon (e.g., red)\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 180,
+        "wires": [
+            [
+                "487582ed8ef15ae7"
+            ]
+        ]
+    },
+    {
+        "id": "487582ed8ef15ae7",
+        "type": "worldmap",
+        "z": "7ce673ecb8c5390f",
+        "name": "",
+        "lat": "-25.540028530008165",
+        "lon": "28.096812583574668",
+        "zoom": "15",
+        "layer": "OSMC",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "panit": "true",
+        "hiderightclick": "false",
+        "coords": "none",
+        "path": "",
+        "overlist": "DR,CO,RA,DN,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriO,EsriDG,NatGeo,UKOS,OpTop",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 900,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "c2cfaafaf2d57ff0",
+        "type": "ui_button",
+        "z": "7ce673ecb8c5390f",
+        "name": "",
+        "group": "6c88040db9a62521",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Reload Map",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 260,
+        "wires": [
+            [
+                "7b3a785298585fd1"
+            ]
+        ]
+    },
+    {
+        "id": "4ed3b66e6d28b5f1",
+        "type": "ui_text_input",
+        "z": "889e32f4f45172b0",
+        "name": "",
+        "label": "Username",
+        "tooltip": "",
+        "group": "87ee96f71b7c3e64",
+        "order": 3,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "mode": "email",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 390,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "20564a6f489317ef",
+        "type": "ui_text_input",
+        "z": "889e32f4f45172b0",
+        "name": "",
+        "label": "Password",
+        "tooltip": "",
+        "group": "87ee96f71b7c3e64",
+        "order": 6,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "mode": "password",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 400,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e6c0732d73eed8ee",
+        "type": "ui_button",
+        "z": "889e32f4f45172b0",
+        "name": "",
+        "group": "87ee96f71b7c3e64",
+        "order": 10,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "Login",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 410,
+        "y": 360,
+        "wires": [
+            [
+                "ccfe2afa6fbfa8ce"
+            ]
+        ]
+    },
+    {
+        "id": "c6fa37d5f44d01ac",
+        "type": "ui_button",
+        "z": "889e32f4f45172b0",
+        "name": "",
+        "group": "87ee96f71b7c3e64",
+        "order": 13,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "SignUp",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 400,
+        "y": 400,
+        "wires": [
+            [
+                "838777621f5cd73f"
+            ]
+        ]
+    },
+    {
+        "id": "146c0b265eec7734",
+        "type": "ui_template",
+        "z": "889e32f4f45172b0",
+        "group": "87ee96f71b7c3e64",
+        "name": "",
+        "order": 16,
+        "width": 8,
+        "height": 1,
+        "format": "<div class=\"padding_b\">\n\n</div>\n\n\n\n<style>\n    .padding_b{\n        height:50px;\n        width:100%;\n        \n    }\n    \n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 400,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3ba05d8cf351dfce",
+        "type": "ui_template",
+        "z": "889e32f4f45172b0",
+        "group": "87ee96f71b7c3e64",
+        "name": "Login Banner",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div>\n    <h1>Login</h1>\n    </div>\n\n\n<style>\n    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');\n   *{\n       \n        font-family: 'Poppins', sans-serif;\n        font-weight: 500px;\n    }\n    h1{\n        text-align:center;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 390,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "838777621f5cd73f",
+        "type": "change",
+        "z": "889e32f4f45172b0",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Register\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 400,
+        "wires": [
+            [
+                "998fc26ee769e815"
+            ]
+        ]
+    },
+    {
+        "id": "998fc26ee769e815",
+        "type": "ui_ui_control",
+        "z": "889e32f4f45172b0",
+        "name": "",
+        "events": "change",
+        "x": 820,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ccfe2afa6fbfa8ce",
+        "type": "change",
+        "z": "889e32f4f45172b0",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Home\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 360,
+        "wires": [
+            [
+                "438837c16ced0edb"
+            ]
+        ]
+    },
+    {
+        "id": "438837c16ced0edb",
+        "type": "ui_ui_control",
+        "z": "889e32f4f45172b0",
+        "name": "",
+        "events": "change",
+        "x": 820,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3f62fac11b0e94b2",
+        "type": "ui_text",
+        "z": "889e32f4f45172b0",
+        "g": "ce5c8cbcf02b54a0",
+        "group": "d180db611972ecdb",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Name:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 390,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "550d95cff6097140",
+        "type": "ui_text",
+        "z": "889e32f4f45172b0",
+        "g": "ce5c8cbcf02b54a0",
+        "group": "d180db611972ecdb",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Last Name:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 410,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "08b4928a97d1e064",
+        "type": "ui_text",
+        "z": "889e32f4f45172b0",
+        "g": "ce5c8cbcf02b54a0",
+        "group": "d180db611972ecdb",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Username:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 410,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "6a7a183587d2bb02",
+        "type": "ui_text",
+        "z": "889e32f4f45172b0",
+        "g": "ce5c8cbcf02b54a0",
+        "group": "d180db611972ecdb",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Country:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 400,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "9a3f81b9ef1c1df1",
+        "type": "comment",
+        "z": "889e32f4f45172b0",
+        "g": "ce5c8cbcf02b54a0",
+        "name": "Use Data",
+        "info": "USER DATA",
+        "x": 400,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "3e05e59b07927130",
+        "type": "ui_button",
+        "z": "889e32f4f45172b0",
+        "name": "",
+        "group": "3ee95f233bd13c9e",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 370,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f9dc4c035f780536",
+        "type": "ui_button",
+        "z": "52af4c6e7319e091",
+        "name": "",
+        "group": "a78694ea8c511dc3",
+        "order": 16,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "Login",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 420,
+        "wires": [
+            [
+                "378761df557f65c6"
+            ]
+        ]
+    },
+    {
+        "id": "d6d6883611634d1a",
+        "type": "ui_button",
+        "z": "52af4c6e7319e091",
+        "name": "",
+        "group": "a78694ea8c511dc3",
+        "order": 13,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "Register",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 460,
+        "wires": [
+            [
+                "a546880b1b92db17"
+            ]
+        ]
+    },
+    {
+        "id": "0375605be942f3c8",
+        "type": "ui_text_input",
+        "z": "52af4c6e7319e091",
+        "name": "",
+        "label": "Password",
+        "tooltip": "",
+        "group": "a78694ea8c511dc3",
+        "order": 6,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "mode": "password",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 260,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0aa985a8724bd446",
+        "type": "ui_text_input",
+        "z": "52af4c6e7319e091",
+        "name": "",
+        "label": "Phone Number",
+        "tooltip": "",
+        "group": "a78694ea8c511dc3",
+        "order": 9,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "mode": "tel",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 240,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9fd5c35087175bfa",
+        "type": "ui_text_input",
+        "z": "52af4c6e7319e091",
+        "name": "",
+        "label": "Email",
+        "tooltip": "",
+        "group": "a78694ea8c511dc3",
+        "order": 3,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "mode": "email",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 270,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "294dfec1588ef9b3",
+        "type": "ui_template",
+        "z": "52af4c6e7319e091",
+        "group": "a78694ea8c511dc3",
+        "name": "",
+        "order": 19,
+        "width": 8,
+        "height": 1,
+        "format": "<div class=\"padding_b\">\n\n</div>\n\n\n\n<style>\n    .padding_b{\n        height:50px;\n        width:100%;\n        \n    }\n    \n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 260,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9186254e3dd00c0a",
+        "type": "ui_template",
+        "z": "52af4c6e7319e091",
+        "group": "a78694ea8c511dc3",
+        "name": "Login Banner",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div>\n    <h1>Register</h1>\n    </div>\n\n\n<style>\n    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');\n   *{\n       \n        font-family: 'Poppins', sans-serif;\n        font-weight: 500px;\n    }\n    h1{\n        text-align:center;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 250,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "378761df557f65c6",
+        "type": "change",
+        "z": "52af4c6e7319e091",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Login\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 420,
+        "wires": [
+            [
+                "fa0840c3d60b1f63"
+            ]
+        ]
+    },
+    {
+        "id": "fa0840c3d60b1f63",
+        "type": "ui_ui_control",
+        "z": "52af4c6e7319e091",
+        "name": "",
+        "events": "change",
+        "x": 660,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a546880b1b92db17",
+        "type": "change",
+        "z": "52af4c6e7319e091",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Login\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 460,
+        "wires": [
+            [
+                "fe844b8154443471"
+            ]
+        ]
+    },
+    {
+        "id": "fe844b8154443471",
+        "type": "ui_ui_control",
+        "z": "52af4c6e7319e091",
+        "name": "",
+        "events": "change",
+        "x": 660,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a1b1130514c3f5d5",
+        "type": "ui_text",
+        "z": "1ffa65904bc25e3a",
+        "g": "125c85faea7572bf",
+        "group": "3fad712465364921",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Tab 1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 790,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "e229b5656c7043a1",
+        "type": "ui_button",
+        "z": "1ffa65904bc25e3a",
+        "g": "125c85faea7572bf",
+        "name": "",
+        "group": "5d0f0a4ec0c8366b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Jump to Tab 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 300,
+        "wires": [
+            [
+                "5563828bf990bac6"
+            ]
+        ]
+    },
+    {
+        "id": "5563828bf990bac6",
+        "type": "change",
+        "z": "1ffa65904bc25e3a",
+        "g": "125c85faea7572bf",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Tab 1\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 300,
+        "wires": [
+            [
+                "711aff1a4fc0d793"
+            ]
+        ]
+    },
+    {
+        "id": "711aff1a4fc0d793",
+        "type": "ui_ui_control",
+        "z": "1ffa65904bc25e3a",
+        "g": "125c85faea7572bf",
+        "name": "",
+        "events": "all",
+        "x": 800,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dc4384a82b31186b",
+        "type": "ui_button",
+        "z": "1ffa65904bc25e3a",
+        "g": "125c85faea7572bf",
+        "name": "",
+        "group": "3fad712465364921",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Jump to Tab 2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 360,
+        "wires": [
+            [
+                "fa46479feb50acf4"
+            ]
+        ]
+    },
+    {
+        "id": "fa46479feb50acf4",
+        "type": "change",
+        "z": "1ffa65904bc25e3a",
+        "g": "125c85faea7572bf",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\" : \"Tab 2\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 360,
+        "wires": [
+            [
+                "711aff1a4fc0d793"
+            ]
+        ]
+    },
+    {
+        "id": "2233f5cdd6b57ab1",
+        "type": "ui_switch",
+        "z": "1ffa65904bc25e3a",
+        "g": "125c85faea7572bf",
+        "name": "",
+        "label": "Show / Hide Tab 1",
+        "tooltip": "",
+        "group": "5d0f0a4ec0c8366b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 350,
+        "y": 440,
+        "wires": [
+            [
+                "2a13de37dd6d06b4"
+            ]
+        ]
+    },
+    {
+        "id": "2a13de37dd6d06b4",
+        "type": "switch",
+        "z": "1ffa65904bc25e3a",
+        "g": "125c85faea7572bf",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 570,
+        "y": 440,
+        "wires": [
+            [
+                "5fe56b501dcf3e4f"
+            ],
+            [
+                "fdb39fe7f3ec1eb6"
+            ]
+        ]
+    },
+    {
+        "id": "5fe56b501dcf3e4f",
+        "type": "change",
+        "z": "1ffa65904bc25e3a",
+        "g": "125c85faea7572bf",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"hide\":[\"Tab 1\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 420,
+        "wires": [
+            [
+                "52551884de6d0830"
+            ]
+        ]
+    },
+    {
+        "id": "fdb39fe7f3ec1eb6",
+        "type": "change",
+        "z": "1ffa65904bc25e3a",
+        "g": "125c85faea7572bf",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"show\":[\"Tab 1\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 460,
+        "wires": [
+            [
+                "52551884de6d0830"
+            ]
+        ]
+    },
+    {
+        "id": "52551884de6d0830",
+        "type": "ui_ui_control",
+        "z": "1ffa65904bc25e3a",
+        "g": "125c85faea7572bf",
+        "name": "",
+        "events": "all",
+        "x": 1010,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    }
+]S
